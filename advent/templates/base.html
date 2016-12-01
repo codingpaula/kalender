@@ -1,0 +1,15 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title>Fridus Adventskalender</title>
+    <link rel="stylesheet" type="text/css"
+          href={% static "css/stylesheet.css" %} />
+  </head>
+  <body>
+    <h1>Fridus Adventskalender</h1>
+    {% block main %}
+    {% endblock main %}
+  </body>
+</html>
